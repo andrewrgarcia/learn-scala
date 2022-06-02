@@ -1,0 +1,3 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/andrew/scripts/hello-world_scala/project/"), "hello-world_scala-build")...
+[debug] Done updating ProjectRef(uri("file:/home/andrew/scripts/hello-world_scala/project/"), "hello-world_scala-build")

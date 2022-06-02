@@ -1,0 +1,326 @@
+2022.06.01 19:10:19 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hhello-world/.metals/lsp.trace.json or /home/andrew/.cache/metals/lsp.trace.json[0m
+2022.06.01 19:10:19 INFO  logging to file /home/andrew/scripts/hhello-world/.metals/metals.log[0m
+2022.06.01 19:10:19 INFO  Started: Metals version 0.11.5 in workspace '/home/andrew/scripts/hhello-world' for client Visual Studio Code 1.67.2.[0m
+2022.06.01 19:10:19 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11)), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)[0m
+2022.06.01 19:10:25 INFO  time: initialize in 5.37s[0m
+2022.06.01 19:10:26 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 19:10:26 WARN  Build server is not auto-connectable.[0m
+2022.06.01 19:12:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/lsp.trace.json or /home/andrew/.cache/metals/lsp.trace.json[0m
+2022.06.01 19:12:01 INFO  logging to file /home/andrew/scripts/hello-world_scala/.metals/metals.log[0m
+2022.06.01 19:12:01 INFO  Started: Metals version 0.11.5 in workspace '/home/andrew/scripts/hello-world_scala' for client Visual Studio Code 1.67.2.[0m
+2022.06.01 19:12:01 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11)), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)[0m
+2022.06.01 19:12:04 INFO  time: initialize in 2.72s[0m
+2022.06.01 19:12:04 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 19:12:04 WARN  Build server is not auto-connectable.[0m
+2022.06.01 19:12:08 WARN  no build target for: /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:12:16 INFO  no build target found for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.01 19:12:19 INFO  time: code lens generation in 10s[0m
+2022.06.01 19:12:19 INFO  time: code lens generation in 8.51s[0m
+2022.06.01 19:13:05 INFO  shutting down Metals[0m
+2022.06.01 19:13:05 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2022.06.01 19:13:28 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 19:13:27 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 19:13:28 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 19:13:28 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 19:13:28 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10026911355323315715/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.01 19:13:28 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11273054974446467122/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.01 19:13:28 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5003338847371716696/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.01 19:13:28 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10529307966451370839/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.01 19:13:27 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10052040431484302761/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.01 19:13:28 WARN  no build target for: /home/andrew/scripts/hello-world_scala/project/metals.sbt[0m
+2022.06.01 19:13:29 INFO  skipping build import with status 'Dismissed'[0m
+2022.06.01 19:13:29 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5506778568930567950/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.01 19:13:29 ERROR [info] waiting for lock on /home/andrew/.sbt/boot/sbt.boot.lock to be available...[0m
+2022.06.01 19:13:30 ERROR [info] waiting for lock on /home/andrew/.sbt/boot/sbt.boot.lock to be available...[0m
+2022.06.01 19:13:30 ERROR [info] waiting for lock on /home/andrew/.sbt/boot/sbt.boot.lock to be available...[0m
+2022.06.01 19:13:30 ERROR [info] waiting for lock on /home/andrew/.sbt/boot/sbt.boot.lock to be available...[0m
+2022.06.01 19:13:30 ERROR [info] waiting for lock on /home/andrew/.sbt/boot/sbt.boot.lock to be available...[0m
+2022.06.01 19:13:34 INFO  time: ran 'sbt bloopInstall' in 5.44s[0m
+2022.06.01 19:13:34 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals11273054974446467122/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2022.06.01 19:13:36 INFO  time: ran 'sbt bloopInstall' in 7.61s[0m
+2022.06.01 19:13:36 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10052040431484302761/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2022.06.01 19:13:39 INFO  time: ran 'sbt bloopInstall' in 9.77s[0m
+2022.06.01 19:13:39 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5506778568930567950/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2022.06.01 19:13:39 INFO  [info] welcome to sbt 1.6.2 (Private Build Java 11.0.15)[0m
+2022.06.01 19:13:40 INFO  [info] welcome to sbt 1.6.2 (Private Build Java 11.0.15)[0m
+2022.06.01 19:13:43 INFO  [info] welcome to sbt 1.6.2 (Private Build Java 11.0.15)[0m
+2022.06.01 19:13:46 INFO  user cancelled sbt bloopInstall[0m
+2022.06.01 19:13:47 INFO  time: ran 'sbt bloopInstall' in 18s[0m
+2022.06.01 19:13:47 INFO  user cancelled sbt bloopInstall[0m
+2022.06.01 19:13:47 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+2022.06.01 19:13:49 INFO  compilation cancelled[0m
+2022.06.01 19:13:50 INFO  [info] loading settings for project hello-world_scala-build-build from metals.sbt ...[0m
+2022.06.01 19:13:51 INFO  compilation cancelled[0m
+2022.06.01 19:13:51 INFO  compilation cancelled[0m
+2022.06.01 19:13:52 INFO  [info] loading project definition from /home/andrew/scripts/hello-world_scala/project/project[0m
+2022.06.01 19:13:54 INFO  Attempting to connect to the build server...[0m
+2022.06.01 19:13:54 INFO  Attempting to connect to the build server...[0m
+2022.06.01 19:13:57 INFO  user cancelled sbt bloopInstall[0m
+2022.06.01 19:13:57 INFO  time: ran 'sbt bloopInstall' in 28s[0m
+2022.06.01 19:14:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json[0m
+2022.06.01 19:14:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json[0m
+2022.06.01 19:14:08 INFO  time: Connected to build server in 14s[0m
+2022.06.01 19:14:08 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.06.01 19:14:08 INFO  time: Connected to build server in 13s[0m
+2022.06.01 19:14:08 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 ERROR Empty build targets. Expected at least one build target identifier.[0m
+2022.06.01 19:14:08 INFO  time: Imported build in 0.12s[0m
+2022.06.01 19:14:08 INFO  time: Imported build in 0.16s[0m
+2022.06.01 19:14:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:14:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:14:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:14:10 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:14:10 INFO  time: indexed workspace in 1.93s[0m
+2022.06.01 19:14:10 WARN  no build target for: /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:14:10 INFO  time: indexed workspace in 1.92s[0m
+2022.06.01 19:14:10 WARN  no build target for: /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:14:16 INFO  no build target found for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.06.01 19:14:16 INFO  time: code lens generation in 1.95s[0m
+2022.06.01 19:14:18 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals1078264265198283070/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.06.01 19:14:21 INFO  [info] welcome to sbt 1.6.2 (Private Build Java 11.0.15)[0m
+2022.06.01 19:14:23 INFO  [info] loading settings for project hello-world_scala-build-build from metals.sbt ...[0m
+2022.06.01 19:14:24 INFO  [info] loading project definition from /home/andrew/scripts/hello-world_scala/project/project[0m
+2022.06.01 19:14:29 INFO  [info] loading settings for project hello-world_scala-build from metals.sbt ...[0m
+2022.06.01 19:14:29 INFO  [info] loading project definition from /home/andrew/scripts/hello-world_scala/project[0m
+2022.06.01 19:14:36 INFO  [success] Generated .bloop/hello-world_scala-build.json[0m
+2022.06.01 19:14:36 INFO  [success] Total time: 7 s, completed Jun 1, 2022, 7:14:37 PM[0m
+2022.06.01 19:14:38 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.06.01 19:14:38 INFO  [info] set current project to hhello-world (in build file:/home/andrew/scripts/hello-world_scala/)[0m
+2022.06.01 19:14:43 INFO  [success] Generated .bloop/root-test.json[0m
+2022.06.01 19:14:43 INFO  [success] Generated .bloop/root.json[0m
+2022.06.01 19:14:43 INFO  [success] Total time: 4 s, completed Jun 1, 2022, 7:14:43 PM[0m
+2022.06.01 19:14:43 INFO  time: ran 'sbt bloopInstall' in 24s[0m
+2022.06.01 19:14:43 INFO  Disconnecting from Bloop session...[0m
+2022.06.01 19:14:43 INFO  Shut down connection with build server.[0m
+2022.06.01 19:14:43 INFO  Attempting to connect to the build server...[0m
+2022.06.01 19:14:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json[0m
+2022.06.01 19:14:46 INFO  Attempting to connect to the build server...[0m
+2022.06.01 19:14:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/project/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json[0m
+2022.06.01 19:14:47 INFO  time: Connected to build server in 4.08s[0m
+2022.06.01 19:14:47 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.06.01 19:14:48 INFO  time: Imported build in 0.19s[0m
+2022.06.01 19:14:52 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:14:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:14:55 INFO  time: indexed workspace in 7.16s[0m
+2022.06.01 19:15:50 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:15:54 INFO  compiling root-test (1 scala source)[0m
+2022.06.01 19:15:54 INFO  time: compiled root in 4.48s[0m
+2022.06.01 19:15:56 INFO  time: compiled root-test in 1.45s[0m
+Jun 01, 2022 7:16:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+2022.06.01 19:16:19 INFO  compilation cancelled[0m
+2022.06.01 19:16:22 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:16:22 INFO  time: compiled root in 0.44s[0m
+2022.06.01 19:16:22 INFO  compiling root-test (1 scala source)[0m
+2022.06.01 19:16:22 INFO  time: compiled root-test in 0.53s[0m
+2022.06.01 19:16:28 INFO  shutting down Metals[0m
+2022.06.01 19:16:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json[0m
+2022.06.01 19:16:28 INFO  Connected to Build server: Bloop v1.5.0[0m
+Jun 01, 2022 7:16:28 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: The input stream was closed.
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.SourceChannelImpl.endRead(SourceChannelImpl.java:241)
+	at java.base/sun.nio.ch.SourceChannelImpl.read(SourceChannelImpl.java:259)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@246c32f5[Shutting down, pool size = 5, active threads = 4, queued tasks = 0, completed tasks = 885]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@246c32f5[Shutting down, pool size = 7, active threads = 4, queued tasks = 0, completed tasks = 885]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Jun 01, 2022 7:16:28 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: The input stream was closed.
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.SourceChannelImpl.endRead(SourceChannelImpl.java:241)
+	at java.base/sun.nio.ch.SourceChannelImpl.read(SourceChannelImpl.java:259)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.06.01 19:28:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/lsp.trace.json or /home/andrew/.cache/metals/lsp.trace.json[0m
+2022.06.01 19:28:26 INFO  logging to file /home/andrew/scripts/hello-world_scala/.metals/metals.log[0m
+2022.06.01 19:28:26 INFO  Started: Metals version 0.11.5 in workspace '/home/andrew/scripts/hello-world_scala' for client Visual Studio Code 1.67.2.[0m
+2022.06.01 19:28:26 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11)), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)[0m
+2022.06.01 19:28:29 INFO  time: initialize in 2.66s[0m
+2022.06.01 19:28:29 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.06.01 19:28:30 INFO  Attempting to connect to the build server...[0m
+2022.06.01 19:28:30 INFO  skipping build import with status 'Installed'[0m
+2022.06.01 19:28:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json[0m
+2022.06.01 19:28:30 INFO  Attempting to connect to the build server...[0m
+2022.06.01 19:28:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/project/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json[0m
+2022.06.01 19:28:31 INFO  time: Connected to build server in 1.07s[0m
+2022.06.01 19:28:31 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.06.01 19:28:31 INFO  time: Imported build in 0.15s[0m
+2022.06.01 19:28:34 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:28:34 INFO  time: compiled root in 0.56s[0m
+2022.06.01 19:28:36 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:28:36 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.06.01 19:28:36 INFO  time: indexed workspace in 5.59s[0m
+2022.06.01 19:28:37 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:28:37 INFO  time: compiled root in 0.39s[0m
+2022.06.01 19:28:37 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:28:37 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:28:37 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:28:40 INFO  time: compiled root in 3.17s[0m
+2022.06.01 19:28:45 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:30:04 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:30:06 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:30:06 INFO  time: compiled root in 0.15s[0m
+2022.06.01 19:30:09 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:41:22 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:41:22 INFO  time: compiled root in 0.22s[0m
+2022.06.01 19:41:24 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:52:52 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:52:52 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:52:53 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:52:53 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:52:53 INFO  time: compiled root in 0.23s[0m
+2022.06.01 19:52:55 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:52:56 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:52:56 INFO  time: compiled root in 0.13s[0m
+2022.06.01 19:52:57 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:53:00 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:53:00 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:53:00 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:53:01 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:53:02 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:53:02 WARN  Could not load snapshot text for /home/andrew/scripts/hello-world_scala/src/main/scala/Main.scala[0m
+2022.06.01 19:53:05 INFO  compiling root (1 scala source)[0m
+2022.06.01 19:53:05 INFO  time: compiled root in 0.58s[0m
+2022.06.01 19:59:00 INFO  compiling root-test (1 scala source)[0m
+2022.06.01 19:59:01 INFO  time: compiled root-test in 1.25s[0m
+2022.06.01 19:59:37 INFO  shutting down Metals[0m
+2022.06.01 19:59:37 INFO  Shut down connection with build server.[0m
+2022.06.01 19:59:37 INFO  Shut down connection with build server.[0m
+2022.06.02 13:03:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/lsp.trace.json or /home/andrew/.cache/metals/lsp.trace.json
+2022.06.02 13:03:49 INFO  logging to file /home/andrew/scripts/hello-world_scala/.metals/metals.log
+2022.06.02 13:03:49 INFO  Started: Metals version 0.11.5 in workspace '/home/andrew/scripts/hello-world_scala' for client Visual Studio Code 1.67.2.
+2022.06.02 13:03:49 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11)), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)
+2022.06.02 13:03:52 INFO  time: initialize in 4s
+2022.06.02 13:03:53 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 13:03:54 INFO  Attempting to connect to the build server...
+2022.06.02 13:03:54 INFO  skipping build import with status 'Installed'
+2022.06.02 13:04:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json
+2022.06.02 13:04:00 INFO  Attempting to connect to the build server...
+2022.06.02 13:04:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/project/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json
+2022.06.02 13:04:00 INFO  time: Connected to build server in 7.17s
+2022.06.02 13:04:00 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 13:04:01 INFO  time: Imported build in 0.25s
+2022.06.02 13:04:05 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.02 13:04:05 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.02 13:04:05 INFO  time: indexed workspace in 4.28s
+2022.06.02 13:04:21 INFO  shutting down Metals
+2022.06.02 13:04:21 INFO  Shut down connection with build server.
+2022.06.02 13:04:21 INFO  Shut down connection with build server.
+2022.06.02 13:04:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/lsp.trace.json or /home/andrew/.cache/metals/lsp.trace.json
+2022.06.02 13:04:38 INFO  logging to file /home/andrew/scripts/hello-world_scala/.metals/metals.log
+2022.06.02 13:04:38 INFO  Started: Metals version 0.11.5 in workspace '/home/andrew/scripts/hello-world_scala' for client Visual Studio Code 1.67.2.
+2022.06.02 13:04:38 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11)), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)
+2022.06.02 13:04:41 INFO  time: initialize in 3.05s
+2022.06.02 13:04:41 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 13:04:41 INFO  Attempting to connect to the build server...
+2022.06.02 13:04:41 INFO  skipping build import with status 'Installed'
+2022.06.02 13:04:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json
+2022.06.02 13:04:42 INFO  Attempting to connect to the build server...
+2022.06.02 13:04:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/project/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json
+2022.06.02 13:04:42 INFO  time: Connected to build server in 0.8s
+2022.06.02 13:04:42 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 13:04:42 INFO  time: Imported build in 0.15s
+2022.06.02 13:04:48 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.02 13:04:48 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.02 13:04:48 INFO  time: indexed workspace in 5.73s
+2022.06.02 13:05:42 INFO  shutting down Metals
+2022.06.02 13:05:42 INFO  Shut down connection with build server.
+2022.06.02 13:05:42 INFO  Shut down connection with build server.
+2022.06.02 13:26:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/lsp.trace.json or /home/andrew/.cache/metals/lsp.trace.json
+2022.06.02 13:26:15 INFO  logging to file /home/andrew/scripts/hello-world_scala/.metals/metals.log
+2022.06.02 13:26:15 INFO  Started: Metals version 0.11.5 in workspace '/home/andrew/scripts/hello-world_scala' for client Visual Studio Code 1.67.2.
+2022.06.02 13:26:15 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11)), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)
+2022.06.02 13:26:18 INFO  time: initialize in 2.5s
+2022.06.02 13:26:18 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.02 13:26:19 INFO  Attempting to connect to the build server...
+2022.06.02 13:26:19 INFO  skipping build import with status 'Installed'
+2022.06.02 13:26:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json
+2022.06.02 13:26:20 INFO  Attempting to connect to the build server...
+2022.06.02 13:26:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andrew/scripts/hello-world_scala/project/.metals/bsp.trace.json or /home/andrew/.cache/metals/bsp.trace.json
+2022.06.02 13:26:20 INFO  time: Connected to build server in 0.96s
+2022.06.02 13:26:20 INFO  Connected to Build server: Bloop v1.5.0
+2022.06.02 13:26:20 INFO  time: Imported build in 0.21s
+2022.06.02 13:26:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.02 13:26:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.06.02 13:26:26 INFO  time: indexed workspace in 6.83s
+2022.06.02 13:26:29 INFO  compiling root (1 scala source)
+2022.06.02 13:26:36 INFO  time: compiled root in 7.35s
+2022.06.02 13:26:36 INFO  compiling root-test (1 scala source)
+2022.06.02 13:26:40 INFO  time: compiled root-test in 3.24s
+Jun 02, 2022 1:27:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2022.06.02 13:27:49 INFO  compiling root (1 scala source)
+2022.06.02 13:27:49 INFO  time: compiled root in 0.96s
+2022.06.02 13:28:21 INFO  shutting down Metals
+2022.06.02 13:28:21 INFO  Shut down connection with build server.
+2022.06.02 13:28:21 INFO  Shut down connection with build server.
