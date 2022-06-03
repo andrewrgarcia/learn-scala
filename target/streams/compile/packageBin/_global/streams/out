@@ -1,1 +1,25 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /home/andrew/scripts/hello-world_scala/target/scala-3.1.2/hhello-world_3-0.1.0-SNAPSHOT.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/andrew/scripts/learn-scala/target/scala-3.1.2/learn-scala_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/hello.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Example.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Example.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Example.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Example.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Example$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Example$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/andrew/scripts/learn-scala/target/scala-3.1.2/classes/Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
